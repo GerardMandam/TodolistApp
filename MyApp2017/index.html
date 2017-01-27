@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html  ng-app="myApp">
+		<head>
+				<script src=" ./js/angular.min.js"></script>
+					<script src=" ./js/edited.js"></script>
+				<link rel= "stylesheet" type="text/css" href="./css/style.css">
+		</head>
+<title> MyApp </title>
+		<body  ng-controller="todoControl">
+			<div id ="wrap" >
+				<div id ="content">
+						<h1>MyAngularJs TodoListApp</h1>
+			<form ng-submit="todoAdd()">
+						<input  id="act" type="text" ng-model="todoInput" required >
+					  <input type="submit" id="btn"  value="+" >
+
+		  </form>
+
+									<div id="dwn"><button ng-click="remove()" style="height:50px; width:248px;" >Remove Activity</button>
+									</div>
+
+			<div class="ui">
+
+			<div ng-repeat="x in todoList" id="styl">
+				<input type="checkbox"  ng-model="x.done"/>
+				<span ng-bind="x.todoText"></span>
+			</div>
+			<br>
+
+
+
+			</div>
+
+			</body>
+
+
+</html>

@@ -1,0 +1,78 @@
+body{
+	font-family:'arial';
+	 background: #55B6AE;
+}
+#wrap{
+	float:left;
+
+}
+h1{
+	font-family:'arial';
+	font-size: 20px;
+	text-align:center;
+}
+#content{
+	height:600px;
+	width:275%;
+	background-color:skyblue;
+	float:left;
+
+}
+div{
+	border-radius: 15px;
+	margin-left:28px;
+
+}
+#act{
+	border-radius: 4px;
+	width:70%;
+	height:20 px;
+	margin-left:46px;
+
+ float: left;
+ border: none;
+ padding: 40px 0;
+ font-size: 2em;
+ font-family: arial;
+ text-indent: 55px;
+}
+#btn{
+	width: 20%;
+ border: none;
+ background: grey;
+ padding: 0;
+ height: 117px;
+ cursor: pointer;
+}
+#descript{
+	margin-left:21px;
+	border-radius: 4px;
+	width:70%;
+	height:50%;
+}
+#btn,value{
+	font-size: 40px;
+}
+#styl{
+
+		font-size: 25px;
+
+}
+
+.ui{
+
+	margin-top: 29px;
+	color: black;
+	height: 20px
+padding:570%;
+}
+#dwn{
+	cursor: pointer;
+	float: right;
+	margin-right: 77px;
+	width: 20%;
+ border: none;
+ background: grey;
+ padding: 0;
+ height: 70px;
+}
